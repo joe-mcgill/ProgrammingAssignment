@@ -24,4 +24,4 @@ cacheSolve <- function(x=matrix(), ...) {  ## cacheSolve can be called on a list
   m<-solve(matrix, ...)                    ## the inverse of matrix is them stored as m
   x$setmatrix(m)                           ## x$setmatrix will now hod the newly inverted matrix
   m
-} 
+} # ProgrammingAssignment
